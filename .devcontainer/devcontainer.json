@@ -60,15 +60,12 @@
         "ms-vscode.vscode-node-azure-pack",
         "ms-azuretools.vscode-bicep"
       ],
+      "settings": {
+        "editor.minimap.enabled": false,
+        "explorer.sortOrder": "type"
+      }
     }
   },
-    
-  "settings": {
-    "editor.minimap.enabled": false,
-    "explorer.sortOrder": "type"
-  }
-}
-},
   
     // on-create.sh 스크립트 실행 명령어
     "onCreateCommand": "/bin/bash ./.devcontainer/on-create.sh > ~/on-create.log",
